@@ -1,0 +1,33 @@
+
+package javaapplication4;
+
+
+public class JavaApplication4 {
+
+   
+    public static void main(String[] args) {
+        
+        Conta p1 = new Conta ();
+        
+        p1.setNumc(2011);
+        p1.setDono("Diogo");
+        p1.abrirConta("cc");
+        
+        Conta p2 = new Conta ();
+        p2.setNumc (5040);
+        p2.setDono ("Rogerio");
+        p2.abrirConta("cp");
+        
+        p1.depositar(100);
+        p2.depositar(500);
+        p2.sacar(100);
+        
+        
+        p1.estadoAtual();
+        p2.estadoAtual();
+        
+        
+        
+    }
+    
+}
