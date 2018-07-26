@@ -1,0 +1,36 @@
+
+package javaapplication9;
+
+
+public class JavaApplication9 {
+
+
+    public static void main(String[] args) {
+        
+        Visitante v1 = new Visitante();
+        v1.setNome("Diogo");
+        v1.setIdade(25);
+        v1.setSexo("Masculino");
+        System.out.println(v1.toString());
+        
+        Aluno a1 = new Aluno ();
+        a1.setNome("Roberto");
+        a1.setMatricula(102030);
+        a1.setCurso("Analise e Desenvolvimento de Sistemas");
+        a1.setIdade(20);
+        a1.setSexo("Masculino");
+        a1.pagarMensalidade();
+        
+        Bolsista b1 = new Bolsista();
+        b1.setMatricula(415263);
+        b1.setNome("Ricardo");
+        b1.setBolsa(12.5f);
+        b1.setSexo("Masculino");
+        b1.pagarMensalidade();
+        
+        
+
+        
+    }
+    
+}
