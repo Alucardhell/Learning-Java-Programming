@@ -1,0 +1,5 @@
+package javaapplication10;
+
+public class GoldFish extends Peixe {
+
+}
