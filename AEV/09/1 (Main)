@@ -1,0 +1,26 @@
+package javaapplication11;
+
+public class JavaApplication11 {
+
+    public static void main(String[] args) {
+        
+        Lobo x = new Lobo();
+        Cachorro y = new Cachorro();
+        
+        x.emitirSom(); 
+        y.emitirSom();
+        
+        y.reagir("Olá");
+        y.reagir("Toma Comida");
+        y.reagir("Vai apanhar");
+        y.reagir (11,45);
+        y.reagir (19,00);
+        y.reagir(true);
+        y.reagir(false);
+        y.reagir(2,12.5f);
+        y.reagir(17,4.5f);
+        
+        
+    }
+
+}
